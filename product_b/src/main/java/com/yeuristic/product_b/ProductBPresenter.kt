@@ -1,7 +1,10 @@
 package com.yeuristic.product_b
 
+import com.yeuristic.message.Message
+import com.yeuristic.message.MessageSender
+
 class ProductBPresenter {
     fun sendMessage() {
-        TODO("Send to PRODUCT_B (receiverId = PRODUCT_B) via PN")
+        MessageSender().sendMessage(ProductBMessageReceiver.PRODUCT_B, Message("title", "body"))
     }
 }
