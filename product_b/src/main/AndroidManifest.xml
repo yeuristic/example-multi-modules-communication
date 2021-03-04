@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yeuristic.product_b">
+
+    <application>
+        <activity android:name=".ProductBDetailActivity"></activity>
+        <activity android:name=".ProductBActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+include ':purchase'
+include ':product_b'
+include ':product_a'
+include ':message'
+include ':app'
+rootProject.name = "Multi Module Application"
